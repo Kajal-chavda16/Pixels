@@ -48,12 +48,12 @@ const Home = ({ images, loader, setSaved, saved }) => {
   return (
     <>
     <ToastContainer />
-      <div className="container-fluid text-center" id="top">
+      <div className="container-fluid text-center " id="top">
         {loader ? (
           <Loader />
         ) : (
           <>
-            <div className="flex">
+            <div className="flex mx-9">
               {images.map((image) => (
                 <div
                   key={image.id}

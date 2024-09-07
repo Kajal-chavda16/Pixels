@@ -8,12 +8,46 @@ body::-webkit-scrollbar {
 }
 
 /* navigation bar */
+.main-nav-container{
+  height: 30rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("public/pexels-bg-main.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.6;
+
+  & h2 {
+   text-align: center;
+   color: black;
+   margin-top: 10px;
+  }
+
+  & .logo-p{
+    /* height: 150px; */
+    display: flex;
+    margin-left: -1450px;
+    margin-top: -160px;
+    opacity: 1.6;
+    
+  }
+
+}
+
 .nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 1300px;
   /* position: fixed; */
 }
+
+
 
 .flex {
   display: grid;
@@ -21,6 +55,8 @@ body::-webkit-scrollbar {
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   gap: 10px;
+  margin: auto;
+  max-width: 1200px;
 }
 
 .flex .items {
