@@ -9,7 +9,7 @@ const Navbar = ({ setSearch }) => {
     
     <div className="main-nav-container">
       <div className="logo-p">
-        <img  src="public/logo-p.png" alt="P" height="200px" />
+        <img  src="/logo-p.png" alt="P" height="200px" />
         {/* <h1>PixExplorer</h1> */}
       </div>
       <h2> The best free stock photos, royalty free <br />
